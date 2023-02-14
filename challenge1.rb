@@ -34,7 +34,6 @@ challenge1a = ["Six", "Kate", "Peter", "Four", "Cat", "William", "Seven", "Nikol
 # 4. Print Strings with length exactly equal to 4
 # Research
 # - None
-# Coding
 
 def check_length_4(array)
     array.each do |string|
