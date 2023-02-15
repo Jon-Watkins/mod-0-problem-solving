@@ -1,6 +1,6 @@
 # Goal
-# - Create an Array of Strings. Print each element in that Array which is exactly
-#   four characters in length, and no other elements.
+# - Create an Array of Strings. 
+# - Print each element in that Array which is exactly four characters in length.
 # Data
 # - Arrays
 # - Strings
@@ -16,11 +16,11 @@
 
 challenge1a = ["Six", "Kate", "Peter", "Four", "Cat", "William", "Seven", "Nikola", "Mike"]
 
-# challenge1.each do |string|
-#     if string.length == 4
-#         p string
-#     end
-# end
+challenge1.each do |string|
+    if string.length == 4
+        p string
+    end
+end
 
 # Problems
 # - None
@@ -43,7 +43,7 @@ def check_length_4(array)
     end
 end
 
-# check_length_4(challenge1a)
+check_length_4(challenge1a)
 
 challenge1b = ["Eight", "Kat", "Pete", "Four", "Catelyn", "Will", "Seven", "Nikky", "Michaela"]
 

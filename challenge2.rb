@@ -20,11 +20,11 @@
 
 challenge2a = ["Jason", "hero", "ship", "Argo", "Medea", "fleece"]
 
-# challenge2a.each do |string|
-#     if string.capitalize! != nil
-#         p string
-#     end
-# end
+challenge2a.each do |string|
+    if string.capitalize! != nil
+        p string
+    end
+end
 
 # Problems
 # - Desired Strings are returned, but are returned capitalized when that is not desired
@@ -36,6 +36,8 @@ challenge2a.each do |string|
     end
 end
 
+# Problems
+# - None
 # Refactor
 # - Explore alternative interpretation of challenge
 # Breakdown
@@ -49,4 +51,7 @@ end
 challenge2a.each do |string|
     p string.downcase
 end
+
+# Problems
+# - None
 
