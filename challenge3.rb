@@ -47,5 +47,3 @@ end
 
 # Problems
 # - None
-# Refactor
-# - Possible alternative through sorting?
